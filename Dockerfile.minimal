@@ -12,6 +12,9 @@
 # docker run -i --rm -p 8080:8080 quarkus/quarkus-hello-world
 #
 ###
+# Building Smaller Container Images
+# https://fedoramagazine.org/building-smaller-container-images/
+###
 FROM registry.fedoraproject.org/fedora-minimal:30
 RUN microdnf install -y libxcrypt-compat gcc glibc-devel zlib-devel openssl-devel && microdnf clean all
 WORKDIR /work/
