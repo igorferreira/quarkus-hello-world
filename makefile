@@ -1,3 +1,6 @@
+dev:
+	mvn compile quarkus:dev
+
 multistage:
 	docker build -f src/main/docker/Dockerfile.multistage -t quarkus-quickstart/getting-started .
 
