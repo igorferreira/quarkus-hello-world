@@ -10,7 +10,7 @@ build-docker-minimal:
 run-docker:
 	docker run -i --rm -p 8080:8080 igorferreira/quarkus-hello-world
 
-run-docker:
+run-docker-minimal:
 	docker run -i --rm -p 8080:8080 igorferreira/quarkus-hello-world-minimal
 
 mvn-build-docker:
